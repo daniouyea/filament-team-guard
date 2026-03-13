@@ -36,7 +36,7 @@
         "illuminate/contracts": "^12.0",
         "mobiledetect/mobiledetectlib": "^4.8",
         "njoguamos/laravel-turnstile": "^3.2",
-        "pragmarx/google2fa": "^8.0",
+        "pragmarx/google2fa": "^9.0",
         "bacon/bacon-qr-code": "^3.0",
         "spatie/laravel-passkeys": "^1.0",
         "spatie/laravel-package-tools": "^1.15.0"

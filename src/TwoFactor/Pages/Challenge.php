@@ -93,7 +93,7 @@ class Challenge extends BaseSimplePage
                     ->hint(__('filament-team-guard::default.form.code.hint'))
                     ->label(__('filament-team-guard::default.form.code.label'))
                     ->required()
-                    ->autocomplete()
+                    ->autocomplete(false)
                     ->rules([
                         fn () => function (string $attribute, $value, $fail): void {
                             $user = Filament::auth()->user();

@@ -92,6 +92,7 @@ class Challenge extends BaseSimplePage
                     ->hiddenLabel()
                     ->hint(__('filament-team-guard::default.form.code.hint'))
                     ->label(__('filament-team-guard::default.form.code.label'))
+                    ->autofocus()
                     ->required()
                     ->autocomplete(false)
                     ->rules([
